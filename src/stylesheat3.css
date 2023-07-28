@@ -318,11 +318,28 @@ a:hover {
         display: none !important;
     }
 
-    /*
+    #body {
+        width: 100%;
+    }
+
     #header {
         width: 100%;
-        margin: auto;
     }
+    
+    #footer {
+        width: 100%;
+    }
+
+    #footwrap {
+        width: 100%;
+    }
+
+    #content {
+        max-width: 95%;
+    }
+
+
+    /*
 
     #navbar {
         width: 100%;
@@ -345,9 +362,6 @@ a:hover {
         height: 60%;
     }
 
-    #footer {
-        width: 100%;
-        margin: auto;
-    }
+    
     */
 }
