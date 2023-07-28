@@ -328,16 +328,20 @@ a:hover {
         margin: auto;
     }
 
+    .content {
+        max-width: 95%;
+    }   
+
     .r_weird {
-    left: 4%;
-    width: 30em;
-    height: 60%;
+        left: 4%;
+        width: 80%;
+    height  : 60%;
     }
 
-.l_weird {
-    right: 4%;
-    width: 80%;
-    height: 60%;
+    .l_weird {
+        right: 4%;
+        width: 80%;
+        height: 60%;
     }
 
     #footer {
