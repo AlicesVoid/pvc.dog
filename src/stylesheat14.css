@@ -325,7 +325,6 @@ a:hover {
     .header {
         position: fixed;
         width: 100%;
-        margin-bottom: 3em;
     }
     
     .footer { 
@@ -337,6 +336,7 @@ a:hover {
     }
 
     .content {
+        margin-top: 5px;
         max-width: 95%;
     }
 
