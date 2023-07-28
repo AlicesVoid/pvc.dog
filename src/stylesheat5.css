@@ -319,6 +319,7 @@ a:hover {
     }
 
     #body {
+        position: fixed;
         width: 100%;
     }
 
@@ -328,17 +329,24 @@ a:hover {
     }
     
     #footer {
+        position: fixed;    
         width: 100%;
     }
 
     #footwrap {
+        position: fixed;
         width: 100%;
     }
 
     #content {
+        position: fixed;
         max-width: 95%;
     }
 
+    #l_weird, #r_weird {
+        position: fixed;
+        width: 100%;
+    }
 
     /*
 
