@@ -318,9 +318,7 @@ a:hover {
         display: none !important;
     }
 
-    #body {
-        width: 100%;
-    }
+
 
     .header {
         position: fixed;
@@ -345,6 +343,9 @@ a:hover {
     }
 
     /*
+        #body {
+            width: 100%;
+        }
 
     #navbar {
         width: 100%;
