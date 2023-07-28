@@ -331,33 +331,15 @@ a:hover {
     }
 
     .r_weird {
-    background-color: var(--header-color);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
     left: 4%;
-    top: 3em;
-    padding: 3%;
-    width: 80%;
+    width: 30em;
     height: 60%;
-    border-radius: 1%;
-    margin: auto;
-    position: relative;
     }
 
 .l_weird {
-    background-color: var(--header2-color);
-    margin-left: 0;
-    margin-right: auto;
-    margin-bottom: 0;
     right: 4%;
-    top: 1em;
-    padding: 3%;
     width: 80%;
     height: 60%;
-    border-radius: 1%;
-    margin: auto;
-    position: relative;
     }
 
     #footer {
