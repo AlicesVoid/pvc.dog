@@ -4,7 +4,7 @@
     --pagebg: #1224EF;
     --selection: #f20b99;
     --sectionbg: #e0bcc5;
-    --header-color: #362a46;
+    --header-color: #6F12EF;
     --header2-color: #440ab1;
     --linkbg: #00fc7e;
     --text-color: #000000;
@@ -335,13 +335,13 @@ a:hover {
     .r_weird {
         left: 4%;
         width: 80%;
-    height  : 60%;
+        height: 60%;
     }
 
     .l_weird {
-        right: 4%;
-        width: 80%;
-        height: 60%;
+    right: 4%;
+    width: 80%;
+    height: 60%;
     }
 
     #footer {
