@@ -313,7 +313,7 @@ a:hover {
 }
 
 /* Mobile only (NOT UPDATED YETTTT) */
-@media only screen and (max-width:799px) {
+@media only screen and (max-width:699px) {
     .nomobile {
         display: none !important;
     }
@@ -323,27 +323,27 @@ a:hover {
         width: 100%;
     }
 
-    #header {
+    .header {
         position: fixed;
         width: 100%;
     }
     
-    #footer {
+    .footer {
         position: fixed;    
         width: 100%;
     }
 
-    #footwrap {
+    .footwrap {
         position: fixed;
         width: 100%;
     }
 
-    #content {
+    .content {
         position: fixed;
         max-width: 95%;
     }
 
-    #l_weird, #r_weird {
+    .l_weird, .r_weird {
         position: fixed;
         width: 100%;
     }
