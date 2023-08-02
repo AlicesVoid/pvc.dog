@@ -178,6 +178,21 @@ a:hover {
     position: relative;
 }
 
+.l_weirder {
+    background-color: var(--header2-color);
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    right: 1em;
+    top: 0em;
+    padding: 3em;
+    width: 50em;
+    height: auto;
+    border-radius: 0.5em;
+    margin: auto;
+    position: relative;
+}
+
 .linkslist {
     color: var(--text-color);
     margin-left: auto;
