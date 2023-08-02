@@ -111,3 +111,38 @@ document.addEventListener("DOMContentLoaded", function () {
     setupToggleLootListener();
 });
 
+// JavaScript code
+const swagContainer = document.getElementById("swagContainer");
+let isDragging = false;
+let offsetX, offsetY;
+
+swagContainer.addEventListener("mousedown", (event) => {
+    isDragging = true;
+    offsetX = event.clientX - swagContainer.offsetLeft;
+    offsetY = event.clientY - swagContainer.offsetTop;
+    swagContainer.style.cursor = "grabbing"; /* Change the cursor when dragging */
+});
+
+document.addEventListener("mousemove", (event) => {
+    if (!isDragging) return;
+
+    const showcase = document.querySelector(".caseShowcase");
+    const showcaseRect = showcase.getBoundingClientRect();
+    const containerWidth = swagContainer.offsetWidth;
+    const containerHeight = swagContainer.offsetHeight;
+
+    let newX = event.clientX - offsetX - showcaseRect.left;
+    let newY = event.clientY - offsetY - showcaseRect.top;
+
+    // Keep the container within the boundaries of the caseShowcase container
+    newX = Math.max(0, Math.min(newX, showcaseRect.width - containerWidth));
+    newY = Math.max(0, Math.min(newY, showcaseRect.height - containerHeight));
+
+    swagContainer.style.left = `${newX}px`;
+    swagContainer.style.top = `${newY}px`;
+});
+
+document.addEventListener("mouseup", () => {
+    isDragging = false;
+    swagContainer.style.cursor = "grab";
+});

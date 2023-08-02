@@ -193,6 +193,21 @@ a:hover {
     position: relative;
 }
 
+.r_bottom {
+    background-color: var(--header-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    left: 0;
+    top: -1.5em;
+    padding: 3em;
+    width: 40em;
+    height: auto;
+    border-radius: 0.5em;
+    margin: auto;
+    position: relative;
+}
+
 .linkslist {
     color: var(--text-color);
     margin-left: auto;
@@ -245,6 +260,39 @@ a:hover {
     padding-bottom: 0.5em;
     margin: 0;
 }
+
+.caseMenu {
+    background-image: url(blurryskeleton.png);
+    background-size: cover;
+    width: auto;
+    height: 30em;
+    border: 0.1em solid var(--accent);
+    border-radius: 0.25em;
+    padding: 1em;
+}
+
+.caseShowcase {
+    position: relative;
+    width: auto;
+    height: 30em;
+    bottom: 1em;
+    padding: 1em;
+    overflow: hidden;
+
+}
+
+.Lootcrate {
+    width: 15em;
+    height: 12em;
+    position: absolute;
+    cursor: grab;
+}
+
+.caseSetting {
+    width: 95%;
+    height: 7em;
+}
+
 
 @font-face {
     font-family: '000webfont';
