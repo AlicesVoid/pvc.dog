@@ -81,7 +81,6 @@ marquee {
     direction: left;
     position: fixed;
     bottom: 0;
-    animation: scrollMarquee 8s linear infinite;
 }
 
 a:link {
