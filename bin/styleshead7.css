@@ -218,6 +218,10 @@ a:hover {
     display: block;
 }
 
+.linkslist a {
+    overflow-wrap: anywhere;
+}
+
 .footwrap {
     width: 100%;
     bottom: 0;
