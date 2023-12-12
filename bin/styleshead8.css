@@ -216,6 +216,8 @@ a:hover {
     width: 100%;
     margin: auto;
     display: block;
+    word-wrap: anywhere;
+    word-break: break-all;
 }
 
 .linkslist a {
