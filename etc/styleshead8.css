@@ -4,19 +4,19 @@
     --pagebg: #5e5e5e;
     --selection: #858585;
     --sectionbg: #c4c4c4;
-    --header-color: #dfdfdf;
+    --header-color: #cecece;
     --header2-color: #706f6f;
     --linkbg: #c5c5c5;
     --text-color: #000000;
 
-    /* --accent: #12EFDD;
-    --pagebg: #1224EF;
-    --selection: #f20b99;
-    --sectionbg: #e0bcc5;
-    --header-color: #6F12EF;
-    --header2-color: #440ab1;
-    --linkbg: #00fc7e;
-    --text-color: #000000; */
+    --old_accent: #12EFDD;
+    --old_pagebg: #1224EF;
+    --old_selection: #f20b99;
+    --old_sectionbg: #e0bcc5;
+    --old_header-color: #6F12EF;
+    --old_header2-color: #440ab1;
+    --old_linkbg: #00fc7e;
+    --old_text-color: #000000;
 }
 
 HTML {
