@@ -399,14 +399,8 @@ flex-shrink: 0;
         box-sizing: border-box;
     }
 
-    .l_weird,
-    .r_weird {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
     /* added rules for custom stuff */
-    .intro_box,
+    /* .intro_box,
     .intro_box_2 {
         width: 90% !important;
         left: 0 !important;
@@ -430,6 +424,6 @@ flex-shrink: 0;
     .the_TV {
         left: 15%;
         width: 70%;
-    }
+    } */
 }
     
