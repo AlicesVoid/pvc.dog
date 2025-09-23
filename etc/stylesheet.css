@@ -50,26 +50,26 @@ body {
 
 h1 {
     color: var(--accent);
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 h2 {
     color: var(--accent);
-    font-size: 1.8em;
+    font-size: 1.8rem;
 }
 
 h3 {
     color: var(--accent);
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 h4 {
     color: var(--accent);
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 a:link {
@@ -107,8 +107,8 @@ img {
 .the_channel {
     position: relative;
     display: inline-block;
-    left: -2.5em;
-    top: 1.5em;
+    left: -2.5rem;
+    top: 1.5rem;
     width: 100%;
     height: 100%;
     aspect-ratio: 4 / 3;
@@ -125,11 +125,11 @@ img {
 
 .the_TV {
     position: absolute; 
-    top: 2.7em;
-    left: 3.5em;
+    top: 2.7rem;
+    left: 3.5rem;
     width: 70%;
     height: 70%;
-    margin-right: 12em;
+    margin-right: 12rem;
     pointer-events: none;
     z-index: 10;
 }
@@ -137,14 +137,14 @@ img {
 /* ########## SHAPES AND LINES */ 
 
 hr {
-    /* border: 0.2em dashed #00ff84; */
-    border: 0.2em dashed #8a8a8a;
+    /* border: 0.2rem dashed #00ff84; */
+    border: 0.2rem dashed #8a8a8a;
     opacity: 0.5;
     overflow: auto;
-    width: 9em;
+    width: 9rem;
     height: 0;
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 
 /* ########## HEADER FORMATTING */
@@ -157,28 +157,28 @@ hr {
     color: var(--header-color);
     background: var(--accent);
     font-size: 5em;
-    line-height: 0.8em;
-    padding-top: 0.4em;
+    line-height: 4rem;
+    padding-top: 2rem;
     padding-bottom: 0;
-    height: 1.4em;
+    height: 7rem;
     width: 100%;
     z-index: 9999;
 }
 
 .header a, .header a:visited {
     color: var(--header-color);
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
 }
 
 .tabs {
     display: grid;
     text-align: justify;
-    font-size: 0.3em;
-    line-height: 1.1em;
+    font-size: 0.3rem;
+    line-height: 1.1rem;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0.4em;
+    padding-top: 0.4rem;
     padding-bottom: 0;
 }
 
@@ -186,10 +186,10 @@ hr {
     color: var(--text-color);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20em;
-    padding-top: 1.4em;
-    padding-bottom: 10em;
-    max-width: 60em;
+    margin-bottom: 20rem;
+    padding-top: 1.4rem;
+    padding-bottom: 10rem;
+    max-width: 60rem;
     margin: auto;
     position: relative;
 }
@@ -209,12 +209,12 @@ hr {
     color: var(--header-color);
     background: var(--accent);
     opacity: 1;
-    padding-top: 1.1em;
-    padding-bottom: 1.1em;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
     width: 100%;
-    height: 4.2em;
+    height: 4.2rem;
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     position: relative;
     overflow: auto;
 }
@@ -224,17 +224,17 @@ hr {
 }
 
 .footer p {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5rem;
     margin: 0;
 }
 
 .blinkies {
     background-color: #000000;
     background-image: url(1103.png);
-    background-position: 0.8em;
+    background-position: 0.8rem;
     width: 100%;
-    height: 2.5em;
-    padding-top: 0.5em;
+    height: 2.5rem;
+    padding-top: 0.5rem;
     padding-bottom: 0;
     direction: left;
     position: fixed;
@@ -266,12 +266,12 @@ flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    left: 7em;
-    top: 2.5em;
-    padding: 3em;
-    width: 23em;
+    left: 7rem;
+    top: 2.5rem;
+    padding: 3rem;
+    width: 23rem;
     height: auto;
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     margin: auto;
     position: relative;
 }
@@ -283,13 +283,13 @@ flex-shrink: 0;
     margin-left: 0;
     margin-right: auto;
     margin-bottom: 0;
-    right: 2em;
-    top: 0.5em;
-    padding: 3em;
-    width: 22em;
+    right: 2rem;
+    top: 0.5rem;
+    padding: 3rem;
+    width: 22rem;
     height: auto;
-    border-radius: 0.5em;
-    border-width: 1em;
+    border-radius: 0.5rem;
+    border-width: 1rem;
     margin: auto;
     position: relative;
 }
@@ -379,7 +379,7 @@ flex-shrink: 0;
     .header {
         position: fixed;
         width: 100%;
-        font-size: 3em;
+        font-size: 3rem;
         /* Reduce header size on mobile */
     }
 
@@ -392,7 +392,7 @@ flex-shrink: 0;
     }
 
     .content {
-        padding-top: 10em;
+        padding-top: 10rem;
         max-width: 95%;
         width: 95%;
         /* Ensure content doesn't exceed screen width */
@@ -411,7 +411,7 @@ flex-shrink: 0;
         width: 90% !important;
         left: 0 !important;
         right: 0 !important;
-        margin: 1em auto !important;
+        margin: 1rem auto !important;
         box-sizing: border-box;
     }
 
