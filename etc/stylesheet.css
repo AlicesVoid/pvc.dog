@@ -401,8 +401,8 @@ flex-shrink: 0;
 
     /* Keep the askew layout but scale it down for mobile */
     .intro_box {
-        width: 18em;
-        /* Smaller but still sizeable */
+        /* width: 18em; */
+        
         left: 2em;
         /* Less offset but still off-center */
         padding: 2em;
@@ -411,8 +411,8 @@ flex-shrink: 0;
     }
 
     .intro_box_2 {
-        width: 17em;
-        /* Slightly smaller */
+        /* width: 17em; */
+        
         right: 1em;
         /* Keep it offset to the right */
         top: -2em;
@@ -422,15 +422,15 @@ flex-shrink: 0;
     }
 
     /* Allow horizontal scrolling for the intro section if needed */
-    .content {
+    /* .content {
         padding-top: 10em;
         max-width: 100%;
         /* Allow full width */
-        width: 100%;
+        /* width: 100%;
         box-sizing: border-box;
-        overflow-x: auto;
+        overflow-x: auto; */
         /* Allow horizontal scroll if content overflows */
-    }
+    /* } */
 
     /* Make images responsive on mobile */
     img {
