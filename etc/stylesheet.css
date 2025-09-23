@@ -421,6 +421,10 @@ flex-shrink: 0;
         box-sizing: border-box;
     }
 
+    .the_TV {
+        right: 1em;
+    }
+
 
     /* Allow horizontal scrolling for the intro section if needed */
     /* .content {
