@@ -415,16 +415,12 @@ flex-shrink: 0;
         
         right: 1em;
         /* Keep it offset to the right */
-        top: -2em;
+        top: -1em;
         /* Overlap with the first box */
         padding: 2em;
         box-sizing: border-box;
     }
 
-    .the_TV {    
-        right: 1em;
-        top: -2em;
-    }
 
     /* Allow horizontal scrolling for the intro section if needed */
     /* .content {
